@@ -2,7 +2,7 @@ package pl.kriss3.bcit;
 
 public class Queen extends ChessPiece 
 {
-	public static final int QUEEN_VALUE = 2;
+	public static final int QUEEN_VALUE = 9;
 	public Queen()
 	{
 		super(QUEEN_VALUE);

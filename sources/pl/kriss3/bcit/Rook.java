@@ -2,7 +2,7 @@ package pl.kriss3.bcit;
 
 public class Rook extends ChessPiece 
 {
-	public static final int ROOK_VALUE = 2;
+	public static final int ROOK_VALUE = 5;
 	
 	public Rook()
 	{
