@@ -1,12 +1,17 @@
 package pl.kriss3.bcit;
 
+/**
+ * Main entry to Lab6a 
+ * @author krzysztof szczurowski
+ * @since 2017-02-17
+ * @see https://github.com/kriss3/BCIT_JavaSemester02-Class06_Lab01_InClass.git
+ */
 public class Main 
 {
 	public static void main(String[] args) 
 	{
 		ChessPiece[][] board = createChessBoard();
-		
-		
+				
 		for(int row=0;row<board.length; row++)
 		{
 			printEdge(144);
